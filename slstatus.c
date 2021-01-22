@@ -6,6 +6,7 @@
 #include <string.h>
 #include <time.h>
 #include <X11/Xlib.h>
+#include <assert.h>
 
 #include "arg.h"
 #include "slstatus.h"
@@ -136,6 +137,7 @@ main(int argc, char *argv[])
 			die("XCloseDisplay: Failed to close display");
 		}
 	}
+
 
 	return 0;
 }

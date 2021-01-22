@@ -1,0 +1,135 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGBEGIN	arg.h	8;"	d
+ARGC	arg.h	27;"	d
+ARGEND	arg.h	17;"	d
+ARGF	arg.h	31;"	d
+ARGF_	arg.h	28;"	d
+ARG_H	arg.h	3;"	d
+CC	config.mk	/^CC = cc$/;"	m
+CFLAGS	config.mk	/^CFLAGS   = -std=c99 -pedantic -Wall -Wextra -Os$/;"	m
+COM	Makefile	/^COM =\\$/;"	m
+CPPFLAGS	config.mk	/^CPPFLAGS = -I$(X11INC) -D_DEFAULT_SOURCE$/;"	m
+CTRL_LEVEL	components/volume.c	20;"	d	file:
+CTRL_MUTE	components/volume.c	21;"	d	file:
+CTRL_NONE	components/volume.c	19;"	d	file:
+EARGF	arg.h	30;"	d
+LDFLAGS	config.mk	/^LDFLAGS  = -L$(X11LIB) -s$/;"	m
+LDLIBS	config.mk	/^LDLIBS   = -lX11$/;"	m
+LEN	util.h	6;"	d
+LOG1024	components/ram.c	85;"	d	file:
+MANPREFIX	config.mk	/^MANPREFIX = $(PREFIX)\/share\/man$/;"	m
+MAXLEN	config.def.h	10;"	d
+MAXLEN	config.h	10;"	d
+PREFIX	config.mk	/^PREFIX = \/usr\/local$/;"	m
+REQ	Makefile	/^REQ = util$/;"	m
+RSSI_TO_PERC	components/wifi.c	11;"	d	file:
+UPTIME_FLAG	components/uptime.c	11;"	d	file:
+UPTIME_FLAG	components/uptime.c	13;"	d	file:
+UPTIME_FLAG	components/uptime.c	9;"	d	file:
+VERSION	config.mk	/^VERSION = 0$/;"	m
+X11INC	config.mk	/^X11INC = \/usr\/X11R6\/include$/;"	m
+X11LIB	config.mk	/^X11LIB = \/usr\/X11R6\/lib$/;"	m
+addr	components/volume.c	/^		unsigned int		addr;$/;"	m	struct:control	file:
+arg	slstatus.c	/^struct arg {$/;"	s	file:
+args	config.def.h	/^static const struct arg args[] = {$/;"	v	typeref:struct:arg
+args	config.h	/^static const struct arg args[] = {$/;"	v	typeref:struct:arg
+args	slstatus.c	/^	const char *args;$/;"	m	struct:arg	file:
+argv0	util.c	/^char *argv0;$/;"	v
+battery_perc	components/battery.c	/^	battery_perc(const char *bat)$/;"	f
+battery_perc	components/battery.c	/^	battery_perc(const char *unused)$/;"	f
+battery_remaining	components/battery.c	/^	battery_remaining(const char *bat)$/;"	f
+battery_remaining	components/battery.c	/^	battery_remaining(const char *unused)$/;"	f
+battery_state	components/battery.c	/^	battery_state(const char *bat)$/;"	f
+battery_state	components/battery.c	/^	battery_state(const char *unused)$/;"	f
+bprintf	util.c	/^bprintf(const char *fmt, ...)$/;"	f
+buf	slstatus.c	/^char buf[1024];$/;"	v
+cleanup	components/volume.c	/^	cleanup(void)$/;"	f	file:
+control	components/volume.c	/^	struct control {$/;"	s	file:
+cpu_freq	components/cpu.c	/^	cpu_freq(void)$/;"	f
+cpu_perc	components/cpu.c	/^	cpu_perc(void)$/;"	f
+datetime	components/datetime.c	/^datetime(const char *fmt)$/;"	f
+die	util.c	/^die(const char *fmt, ...)$/;"	f
+difftimespec	slstatus.c	/^difftimespec(struct timespec *res, struct timespec *a, struct timespec *b)$/;"	f	file:
+disk_free	components/disk.c	/^disk_free(const char *path)$/;"	f
+disk_perc	components/disk.c	/^disk_perc(const char *path)$/;"	f
+disk_total	components/disk.c	/^disk_total(const char *path)$/;"	f
+disk_used	components/disk.c	/^disk_used(const char *path)$/;"	f
+done	slstatus.c	/^static volatile sig_atomic_t done;$/;"	v	file:
+dpy	slstatus.c	/^static Display *dpy;$/;"	v	file:
+entropy	components/entropy.c	/^	entropy(void)$/;"	f
+esnprintf	util.c	/^esnprintf(char *str, size_t size, const char *fmt, ...)$/;"	f
+evsnprintf	util.c	/^evsnprintf(char *str, size_t size, const char *fmt, va_list ap)$/;"	f	file:
+fmt	slstatus.c	/^	const char *fmt;$/;"	m	struct:arg	file:
+fmt_human	util.c	/^fmt_human(uintmax_t num, int base)$/;"	f
+func	slstatus.c	/^	const char *(*func)();$/;"	m	struct:arg	file:
+get_layout	components/keymap.c	/^get_layout(char *syms, int grp_num)$/;"	f	file:
+get_swap_info	components/swap.c	/^	get_swap_info(long *s_total, long *s_free, long *s_cached)$/;"	f	file:
+getstats	components/swap.c	/^	getstats(int *total, int *used)$/;"	f	file:
+getswapinfo	components/swap.c	/^	static int getswapinfo(struct kvm_swap *swap_info, size_t size)$/;"	f	file:
+gid	components/user.c	/^gid(void)$/;"	f
+hdl	components/volume.c	/^	static struct sioctl_hdl *hdl;$/;"	v	typeref:struct:sioctl_hdl	file:
+hostname	components/hostname.c	/^hostname(void)$/;"	f
+init	components/volume.c	/^	init(void)$/;"	f	file:
+initialized	components/volume.c	/^	static int initialized;$/;"	v	file:
+interval	config.def.h	/^const unsigned int interval = 1000;$/;"	v
+interval	config.h	/^const unsigned int interval = 1000;$/;"	v
+ip	components/ip.c	/^ip(const char *interface, unsigned short sa_family)$/;"	f	file:
+ipv4	components/ip.c	/^ipv4(const char *interface)$/;"	f
+ipv6	components/ip.c	/^ipv6(const char *interface)$/;"	f
+kernel_release	components/kernel_release.c	/^kernel_release(void)$/;"	f
+keyboard_indicators	components/keyboard_indicators.c	/^keyboard_indicators(const char *fmt)$/;"	f
+keymap	components/keymap.c	/^keymap(void)$/;"	f
+load_apm_power_info	components/battery.c	/^	load_apm_power_info(struct apm_power_info *apm_info)$/;"	f	file:
+load_avg	components/load_avg.c	/^load_avg(void)$/;"	f
+load_ieee80211_nodereq	components/wifi.c	/^	load_ieee80211_nodereq(const char *interface, struct ieee80211_nodereq *nr)$/;"	f	file:
+load_ieee80211req	components/wifi.c	/^	load_ieee80211req(int sock, const char *interface, void *data, int type, size_t *len)$/;"	f
+load_uvmexp	components/ram.c	/^	load_uvmexp(struct uvmexp *uvmexp)$/;"	f
+main	slstatus.c	/^main(int argc, char *argv[])$/;"	f
+maxval	components/volume.c	/^		unsigned int		maxval;$/;"	m	struct:control	file:
+netspeed_rx	components/netspeeds.c	/^	netspeed_rx(const char *interface)$/;"	f
+netspeed_tx	components/netspeeds.c	/^	netspeed_tx(const char *interface)$/;"	f
+num_files	components/num_files.c	/^num_files(const char *path)$/;"	f
+ondesc	components/volume.c	/^	ondesc(void *unused, struct sioctl_desc *desc, int val)$/;"	f	file:
+onval	components/volume.c	/^	onval(void *unused, unsigned int addr, unsigned int val)$/;"	f	file:
+pagetok	components/ram.c	86;"	d	file:
+pfds	components/volume.c	/^	static struct pollfd *pfds;$/;"	v	typeref:struct:pollfd	file:
+pick	components/battery.c	/^	pick(const char *bat, const char *f1, const char *f2, char *path,$/;"	f	file:
+pscanf	util.c	/^pscanf(const char *path, const char *fmt, ...)$/;"	f
+ram_free	components/ram.c	/^	ram_free(void) {$/;"	f
+ram_free	components/ram.c	/^	ram_free(void)$/;"	f
+ram_perc	components/ram.c	/^	ram_perc(void) {$/;"	f
+ram_perc	components/ram.c	/^	ram_perc(void)$/;"	f
+ram_total	components/ram.c	/^	ram_total(void) {$/;"	f
+ram_total	components/ram.c	/^	ram_total(void)$/;"	f
+ram_used	components/ram.c	/^	ram_used(void) {$/;"	f
+ram_used	components/ram.c	/^	ram_used(void)$/;"	f
+run_command	components/run_command.c	/^run_command(const char *cmd)$/;"	f
+separator	components/separator.c	/^separator(const char *separator)$/;"	f
+swap_free	components/swap.c	/^	swap_free(void)$/;"	f
+swap_perc	components/swap.c	/^	swap_perc(void)$/;"	f
+swap_total	components/swap.c	/^	swap_total(void)$/;"	f
+swap_used	components/swap.c	/^	swap_used(void)$/;"	f
+temp	components/temperature.c	/^	temp(const char *file)$/;"	f
+temp	components/temperature.c	/^	temp(const char *unused)$/;"	f
+temp	components/temperature.c	/^	temp(const char *zone)$/;"	f
+terminate	slstatus.c	/^terminate(const int signo)$/;"	f	file:
+type	components/volume.c	/^		unsigned int		type;$/;"	m	struct:control	file:
+uid	components/user.c	/^uid(void)$/;"	f
+unknown_str	config.def.h	/^static const char unknown_str[] = "n\/a";$/;"	v
+unknown_str	config.h	/^static const char unknown_str[] = "n\/a";$/;"	v
+uptime	components/uptime.c	/^uptime(void)$/;"	f
+usage	slstatus.c	/^usage(void)$/;"	f	file:
+username	components/user.c	/^username(void)$/;"	f
+val	components/volume.c	/^		unsigned int		val;$/;"	m	struct:control	file:
+valid_layout_or_variant	components/keymap.c	/^valid_layout_or_variant(char *sym)$/;"	f	file:
+verr	util.c	/^verr(const char *fmt, va_list ap)$/;"	f	file:
+vol_perc	components/volume.c	/^	vol_perc(const char *card)$/;"	f
+vol_perc	components/volume.c	/^	vol_perc(const char *unused)$/;"	f
+warn	util.c	/^warn(const char *fmt, ...)$/;"	f
+wifi_essid	components/wifi.c	/^	wifi_essid(const char *interface)$/;"	f
+wifi_perc	components/wifi.c	/^	wifi_perc(const char *interface)$/;"	f
